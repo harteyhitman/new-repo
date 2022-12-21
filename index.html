@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>frontend mentor</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="image">
+</head>
+<body id="dark-mode">
+    <div class="container">
+        <div class="numberlink">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+        <div class="main">
+            <h2>Select your plan</h2>
+            <p>you have the option of monthly or yearly billing.</p>
+            <div class="widebox">
+                <div class="widebox-inner">
+                    <img src="./icon-arcade.svg" alt="">
+                    <h3>Arcade</h3>
+                    <p>$9/mo</p>
+                </div>
+                <div class="widebox-inner">
+                    <img src="./icon-advanced.svg" alt="">
+                    <h3>advanced</h3>
+                    <p>$12/mo</p>
+                </div>
+                <div class="widebox-inner">
+                    <img src="./icon-pro.svg" alt="">
+                    <h3>Pro</h3>
+                    <p>$15/mo</p>
+                </div>
+            </div>
+            <div class="season">
+                <div class="month">Monthly</div>
+                <div id="btn1" style="background-color: #001334"><label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label></div>
+                <div class="year"><p>yearly</p></div>
+            </div>
+        </div>
+        <div class="nextstep">
+           <div><p>Go back</p></div>
+            <button  onclick="darkMode(this)">Next Step</button></div>
+        </div>
+    </div>
+    
+
+    <script src="./main.js"></script>
+</body>
+</html>
